@@ -4,20 +4,21 @@ Práctica Postman – Métodos HTTP
 API utilizada:
 https://restful-api.dev/
 
---------------------------------------------------
-Método GET
---------------------------------------------------
-GET https://restful-api.dev/objects
 
+
+## Método GET
+```
+GET https://restful-api.dev/objects
+```
 Descripción:
 Obtiene todos los objetos disponibles en la API.
 
---------------------------------------------------
-Método POST
---------------------------------------------------
+## Método POST
+```
 POST https://restful-api.dev/objects
-
+```
 JSON enviado:
+```
 {
   "name": "Apple Ipad Pro 16 , 8 gen",
   "data": {
@@ -27,16 +28,17 @@ JSON enviado:
     "Hard disk size": "1 TB"
   }
 }
-
+```
 Descripción:
 Crea un nuevo objeto en la base de datos.
 
---------------------------------------------------
-Método PUT
---------------------------------------------------
-PUT https://restful-api.dev/objects/ff80818119782e69e019a2cc3232d72f5
 
+## Método PUT
+```
+PUT https://restful-api.dev/objects/ff80818119782e69e019a2cc3232d72f5
+```
 JSON enviado:
+```
 {
   "id": "ff80818119782e69e019a2cc3232d72f5",
   "name": "Apple Ipad Pro 16 , 8 gen",
@@ -47,26 +49,24 @@ JSON enviado:
     "Hard disk size": "1 TB"
   }
 }
-
+```
 Descripción:
 Actualiza el objeto con el ID especificado.
 
---------------------------------------------------
-Método DELETE
---------------------------------------------------
-DELETE https://restful-api.dev/objects/ff80818119782e69e019a2cc3232d72f5
 
+## Método DELETE
+```
+DELETE https://restful-api.dev/objects/ff80818119782e69e019a2cc3232d72f5
+```
 Descripción:
 Elimina el objeto con el ID indicado.
 
---------------------------------------------------
-Evidencia
---------------------------------------------------
+
+
+## Evidencia
 Las capturas de pantalla de cada método ejecutado se encuentran en el archivo PDF adjunto:
 NicoleParedes_TallerPostman.pdf
 
---------------------------------------------------
-Repositorio GitHub
---------------------------------------------------
+## Repositorio GitHub
 https://github.com/NicoleParedes24/PostmanNicole
-(Reemplaza "TuUsuario" por tu nombre de usuario real en GitHub)
+
